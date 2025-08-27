@@ -321,14 +321,20 @@ FEATURES
 }
 
 .book {
-  width: 25%;
+  width: 20%;
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
 }
 
 .book__img {
-  max-height: 380px;
+  max-width: 200px;
+  max-height: 100%;
+  height: auto;
   transition: all 300ms ease;
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .book__img--wrapper {
@@ -336,20 +342,35 @@ FEATURES
   border-radius: 4px;
   overflow: hidden;
   display: flex;
+  align-items: center;
 }
 
 .book:hover .book__img {
   transform: scale(1.03);
 }
 
-.book__title {
+.section__title {
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-.book__title:hover {
+.img__title {
+  font-size: 15px;
+  margin-bottom: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .img__title:hover {
   text-decoration: underline;
-  cursor: not-allowed;
+  cursor: pointer;
+}
+
+.section__title:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .book__ratings {
@@ -423,7 +444,7 @@ footer {
     font-size: 18px;
   }
 
-  .book {
+ .book {
     width: 50%;
   }
 }
@@ -445,5 +466,8 @@ footer {
 
   .highlight:not(:last-child) {
     margin-bottom: 24px;
+  }
+  .book {
+    width: 100%;
   }
 }
