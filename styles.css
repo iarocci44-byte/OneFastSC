@@ -197,7 +197,7 @@ header {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -215,7 +215,7 @@ header {
 }
 
 .container {
-  padding: 56px 0;
+  padding: 10px 0;
 }
 
 .row {
@@ -311,7 +311,7 @@ FEATURES
 */
 
 #features {
-  padding-top: 8vw;
+  padding-top: 4vw;
   background-color: rgba(115, 66, 214, 0.1);
 }
 
@@ -470,4 +470,30 @@ footer {
   .book {
     width: 100%;
   }
+
+}
+
+/* Disassembly Page */
+
+.general__container {
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.image__container {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  height: auto
+}
+
+.car__img {
+  max-width: 700px;
+  max-height: 100%;
+  height: auto;
+  transition: all 300ms ease;
 }
