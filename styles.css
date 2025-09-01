@@ -12,7 +12,9 @@ html {
 
 body {
   max-width: 100vw;
+  display: flex;
   overflow-x: hidden;
+  flex-direction: column;
 }
 
 nav {
@@ -190,7 +192,7 @@ LANDING
 }
 
 header {
-  height: calc(100vh - 80px);
+  height: calc(75vh - 80px);
 }
 
 .header__container {
@@ -402,10 +404,16 @@ FOOTER
 
 footer {
   background-color: #242424;
+  width: 100%;
+  margin-top: auto;
+  padding: 24px 0;
 }
 
 .footer__logo {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__logo--img {
@@ -479,6 +487,11 @@ footer {
     
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
   }
 
 .image__container {
