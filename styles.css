@@ -323,7 +323,7 @@ FEATURES
 }
 
 .book {
-  width: 20%;
+  width: calc(100%/3);
   padding: 24px;
   display: flex;
   flex-direction: column;
