@@ -81,6 +81,9 @@ button:active {
   border: none;
 }
 
+.center{
+  text-align: center;
+}
 .purple {
   color: #2A6BAC;
 }
