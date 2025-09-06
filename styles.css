@@ -17,6 +17,15 @@ body {
   flex-direction: column;
   background-image: url(./assets/background.jpg);
   background-position: center;
+  background-size: cover;
+}
+.oval {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center;
+  border: 1px;
 }
 
 nav {
@@ -230,6 +239,7 @@ header {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .row__column {
@@ -359,7 +369,7 @@ FEATURES
 
 .section__title {
   font-size: 20px;
-  margin: 80px 0 0 0;
+  margin: 160px 0 0 0;
 }
 
 .img__title {
