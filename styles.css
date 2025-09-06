@@ -15,7 +15,8 @@ body {
   display: flex;
   overflow-x: hidden;
   flex-direction: column;
-  background-color: rgb(100, 2, 2);
+  background-image: url(./assets/background.jpg);
+  background-position: center;
 }
 
 nav {
