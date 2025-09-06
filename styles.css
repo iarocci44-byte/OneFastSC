@@ -26,6 +26,7 @@ body {
   display: inline-block;
   text-align: center;
   border: 1px;
+  margin: 8px 8px;
 }
 
 nav {
@@ -92,8 +93,13 @@ button:active {
   border: none;
 }
 
-.center{
+.center__text{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
 }
 .purple {
   color: #2A6BAC;
@@ -369,7 +375,7 @@ FEATURES
 
 .section__title {
   font-size: 20px;
-  margin: 160px 0 0 0;
+  margin: 110px 0 0 0;
 }
 
 .img__title {
